@@ -1,0 +1,187 @@
+/* REVISADO EM 15/03 */
+*{
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-family: 'VT323', monospace;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.site_title{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+header {
+    background-image: url(../images/manisha.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 55vh;
+    position: relative;
+    padding-top: 20rem;
+}
+nav{
+    margin-top: -270px;
+}
+.links{
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    text-transform: uppercase; 
+    font-size: 3vh;
+}
+ul > li {
+    list-style: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+body{
+    color: grey;
+}
+.banner{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 270px;
+    font-size: 1.5rem;  
+}
+.banner_title-color{
+    color: rgb(151, 68, 8);
+}
+.seta{
+    padding: 50px;
+}
+.seta_img{
+    width: 5%;
+}
+.projetos_title, .titles{
+    color: rgb(151, 68, 8);
+    text-align: center;
+    padding: 25px;
+}
+.projetos_site{
+    display: flex;
+}
+.projetos{
+    height: 80vh;
+    margin-left: 4vh;
+}
+.icon{
+    width: 10%;
+    height: 10%;
+    margin-inline-start: 35vh;
+} 
+.icon2{
+    width: 4%;
+    height: 4%;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+.site_img{
+    width:90%;
+    margin-top: 5vh;
+}
+.site_title{
+    color: rgb(71, 17, 17);
+    width: 90%;
+    margin-top: 20px;
+    font-size: 80%;
+    margin-left: 4vh;
+}
+.sobreMim{
+    background-color: rgb(255, 227, 104);
+    text-align: center;
+}
+.sobreMim_img{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 25vh;
+    width: 25vh;
+    object-fit: none;
+}
+.contato{
+    height: 35vh;
+}
+.contato_icons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.contato_img{
+    width: 10%;    
+}
+.contato_img-icon{
+    width: 75%;
+}
+.footer-link, h5{
+    color: rgb(71, 17, 17);
+}
+footer{
+    background-color: rgb(255, 227, 104);
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    header{
+        background-position-x: 30%; 
+    }
+    nav{
+        margin-left: 15vh;
+        margin-top: -50vh;
+    }
+    .banner_title{
+        margin-left: 4vh;
+    }
+    .icon{
+        justify-items: center;
+    }
+    .icon2{
+        width: 11%;
+        height: 11%;
+        margin-left: 34vh;
+    }
+    ul{
+        display: flex;
+        width: 49%;
+        justify-content: space-around;
+        text-transform: uppercase;
+        margin-top: 2vh;
+    }
+    ul > li{
+        display: inline-block;
+        margin-inline-start: 35px;
+        margin-top: 10px;
+    }
+    .seta_img{
+        width: 15%;
+    }
+    .projetos{
+        height: 65vh;
+    }
+    .projetos_site{
+        display: block;
+    }
+    .sobreMim{
+        margin-top: 45vh;
+    }
+    .contato{
+        height: 50vh;
+    }
+    .contato_icons{
+        display: block;
+        width: 17vh;
+        margin-left: 15vh;
+    }
+    .contato_img-icon{
+        margin-bottom: 2vh;
+    }
+    footer{
+        display: block;
+        font-size: 3vh;
+        margin-top: 15vh;
+    }
+}
